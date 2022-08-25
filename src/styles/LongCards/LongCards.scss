@@ -1,0 +1,46 @@
+@import '../variables/colors.scss';
+.upper{
+    // margin:
+    // height: 468px;
+    max-width: 360px;
+    position: relative;
+
+
+    img{
+        height:468px
+    }
+    .text-area{
+        background-color: black;
+        padding: 25px;
+    }
+    .tag{
+        position: absolute;
+        background-color: black;
+        z-index: 100;
+        color: white;
+        font-family: sans-serif;
+        padding: 22px 12px;
+        font-size: xx-large;
+        position: absolute;
+        top: 10%;
+        &:hover{
+            padding-left: 10px;
+        }
+    }
+
+    .overlay{
+
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        z-index: 110;
+        &:hover{
+            margin: 10px;
+            transition: 0.2s;
+        }
+    }
+        
+}
+

@@ -1,0 +1,37 @@
+.upper {
+  max-width: 360px;
+  position: relative;
+}
+.upper img {
+  height: 468px;
+}
+.upper .text-area {
+  background-color: black;
+  padding: 25px;
+}
+.upper .tag {
+  position: absolute;
+  background-color: black;
+  z-index: 100;
+  color: white;
+  font-family: sans-serif;
+  padding: 22px 12px;
+  font-size: xx-large;
+  position: absolute;
+  top: 10%;
+}
+.upper .tag:hover {
+  padding-left: 10px;
+}
+.upper .overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  z-index: 110;
+}
+.upper .overlay:hover {
+  margin: 10px;
+  transition: 0.2s;
+}/*# sourceMappingURL=LongCards.css.map */
